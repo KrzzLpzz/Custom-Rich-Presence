@@ -1,0 +1,42 @@
+{
+  "type": "module",
+  "name": "Custom-Rich-Presence",
+  "description": "This script allows you to keep your discord account status as streaming. It also allows you to configure an image or gif in your Rich Presence with a link and you also have two fully configurable buttons.",
+  "version": "1.0.0",
+  "homepage": "sdsd",
+  "license": "GNU General Public License v3.0",
+  "main": "index.js",
+  "author": {
+    "name": "KrzzLpzz",
+    "url": "https://github.com/KrzzLpzz",
+    "email": "krzz@duck.com"
+  },
+  "repository": {
+    "type": "mn",
+    "url": "mn"
+  },
+  "engines": {
+    "node": ">=16.6.0",
+    "npm": ">=7.0.0"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "contributors": [
+    {
+      "name": "Im_JVallejo",
+      "url": "https://jesscx.boxmineworld.com/"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "chalk": "^5.2.0",
+    "discord.js-selfbot-v13": "^2.14.6",
+    "express": "^4.18.2",
+    "node-fetch": "^3.2.6"
+  }
+}
