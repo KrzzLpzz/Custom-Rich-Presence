@@ -1,3 +1,5 @@
+// Thanks to Im_JVallejo for the base of the code.
+
 import keepAlive from './server.js';
 import consola from './console.js';
 const TOKEN = process.env['TOKEN'];
