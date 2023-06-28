@@ -24,9 +24,8 @@ function formatTime() {
 }
 
 client.on('ready', async () => {
-   consola();
-
-    console.log(`
+  consola();
+  console.log(`
         User: ${client.user.username} - rich precense started!
         Login successful, it's time to trick Vicemi!`);
 
@@ -37,7 +36,7 @@ client.on('ready', async () => {
     .setState('con tu mamá')
     .setName('KrzzLpzz')
     .setDetails(`jajaxd [${formatTime()}]`)
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/667162223591948308/1123333096910114956/ezgif.com-video-to-gif.gif') //You can put links in tenor or discord and etc.
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/667162223591948308/1123333096910114956/ezgif.com-video-to-gif.gif') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('KrzzLpzz') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1067011441414127687.gif?size=4096&quality=lossless') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Verified') //Text when you hover the Small image
